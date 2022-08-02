@@ -11,17 +11,19 @@
 
 <body>
 
-	<section>
-		<div class="wp">
-			<img src="img/wp2.png" class="wp__image" alt="html">
-		</div>
-	</section>
+    <main class="grid-padre">
 
+        <section class="wpsection">
+			<div class="wp">
+				<img src="img/wp2.png" class="wp__image" alt="html">
+			</div>
+		</section>
 
-	<header>
-        <div class="center"><img src="img/Logo.jpg" alt="logo-sitio"></div>
-        <nav>
-            <div id="navegador">
+        <header>
+			<img src="img/Logo.jpg" alt="html" class="logo">
+		</header>
+		<nav>
+			<div id="menu">
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="Contacto.html">Contacto</a></li>
@@ -30,11 +32,10 @@
                     <li><a href="Galeria.html">Galeria</a></li>
                 </ul>
             </div>
-        </nav>
-    </header>
+		</nav>
 
 
-
+<section id="turno">
     <fieldset class="reserva">
         <legend>Reserva tu turno</legend>
 
@@ -47,19 +48,19 @@
         <article>
             <form>
                 <label for="Nombre y apellido">Nombre y apellido
-                    <input type="text" name="Nombre y apellido">
+                    <input type="text" name="Nombre y apellido" class="nombreyapellido">
                 </label>
 
 
                 <div>
                     <label for="email">Email:
-                        <input type="email" placeholder="aaa@gmail.com" name="email">
+                        <input type="email" placeholder="aaa@gmail.com" name="email" class="email">
                     </label>
                 </div>
 
                 <div>
                     <label for="Edad">Edad
-                        <input type="text" name="Edad">
+                        <input type="text" name="Edad" class="edad">
                     </label>
                 </div>
 
@@ -90,7 +91,7 @@
 
                 <div>
                     <label for="Consultas">Consultas:
-                        <textarea name="Consultas" id="" cols="30" rows="5"></textarea>
+                        <textarea name="Consultas" id="" cols="30" rows="5" class="consultas"></textarea>
                     </label>
                 </div>
                 <br>
@@ -105,6 +106,7 @@
         </article>
 
     </fieldset>
+    </section>
 
     <hr>
 
@@ -132,6 +134,9 @@
 
 
         </div>
+    </footer>
+
+</main>
 
 
 </body>
